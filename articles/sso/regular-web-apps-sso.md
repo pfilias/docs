@@ -10,7 +10,7 @@ Let's say we have three applications
 
 ## Case 1: The user is already logged in and clicks on a link that redirects to a specific url app3.com
 
-The user logs in on app1.com and click on some link should take him to a particular URL on app3.com. In these case, you can create an endpoint on the target application (app3) that will redirect to the URL the user wanted to go after SSO. For example:
+The user logs in on app1.com and click on some link should take him to a particular URL on app3.com. In this case, you can create an endpoint on the target application (app3) that will redirect to the URL the user wanted to go after SSO. For example:
 
 ```
 https://app3.com/sso?targetUrl=/foo/bar
